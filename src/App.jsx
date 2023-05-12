@@ -1,10 +1,11 @@
 import './App.css';
-import { Header } from './components/Header/Header';
 
 function App() {
-  return <>
-    <Header></Header>
-  </>
+  return (
+    <div className="App">
+      <h1>There will be a team project</h1>
+    </div>
+  );
 }
 
 export default App;
